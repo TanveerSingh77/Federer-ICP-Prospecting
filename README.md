@@ -44,13 +44,12 @@ Each company was evaluated using a structured 6-factor scoring framework:
 | D | Below 40 | Not ICP |
 
 ---
-
 # Project Structure
 
 ```bash
-federer-icp-hyderabad/
+Federer-ICP-Prospecting/
 │
-├── federer_icp_companies.csv
+├── federer_icp_companies.xlsx
 ├── federer_icp_methodology.docx
 └── README.md
 ```
@@ -59,8 +58,8 @@ federer-icp-hyderabad/
 
 | File | Description |
 |---|---|
-| `federer_icp_companies.csv` | Final ICP-qualified company dataset |
-| `federer_icp_methodology.docx` | Research methodology and validation approach |
+| `federer_icp_companies.xlsx` | Final ICP-qualified company dataset |
+| `federer_icp_methodology.docx` | Research methodology and validation framework |
 | `README.md` | Project documentation |
 
 ---
