@@ -1,98 +1,202 @@
 # Target Company Research – Hyderabad (Federer ICP)
 
-## Overview
-This project identifies and evaluates Hyderabad-based specialty manufacturing companies aligned with DeepThought’s Federer ICP model. The focus is on companies with real manufacturing capability, technical leadership, and visible growth signals suitable for execution consulting and PDGMS use cases.
+A structured market research and ICP qualification project focused on identifying Hyderabad-based specialty manufacturing companies aligned with DeepThought’s Federer ICP framework.
 
-The dataset is not a simple directory of companies but a filtered ICP shortlist built through multi-source validation and iterative exclusion.
+The project emphasizes multi-layer company validation, manufacturing verification, and growth-signal analysis to build a high-quality outbound targeting dataset rather than a generic company directory.
 
 ---
 
-## Objective
-To identify Hyderabad-based companies that:
+# Project Objective
+
+The primary objective of this research was to identify and evaluate Hyderabad-based companies that:
+
 - Operate in specialty manufacturing sectors
-- Have real in-house production and R&D capability
-- Show growth and expansion signals
-- Are led by technical or scientifically trained decision-makers
-- Align with DeepThought’s execution-focused ICP model
+- Possess genuine in-house manufacturing capabilities
+- Demonstrate R&D or technical differentiation
+- Show measurable business growth signals
+- Have technically oriented leadership teams
+- Align with DeepThought’s execution-focused Federer ICP model
 
 ---
 
-## ICP Framework (Federer Model)
-Each company is evaluated using six criteria:
+# ICP Evaluation Framework (Federer Model)
 
-- Manufacturer strength  
-- India / Hyderabad presence  
-- Differentiation (IP, R&D, certifications)  
-- Technical decision-maker profile  
-- Sector growth tailwinds  
-- Active growth signals  
+Each company was evaluated using a structured 6-factor scoring framework:
 
-Each company is classified as:
-- A – Strong Federer (80–100)
-- B – Probable Federer (60–79)
-- C – Borderline (40–59)
-- D – Not ICP (<40)
+| Evaluation Criteria | Description |
+|---|---|
+| Manufacturer Strength | Verified manufacturing capability |
+| Hyderabad Presence | Operational presence in Hyderabad/India |
+| Differentiation | IP, certifications, R&D capability |
+| Technical Leadership | Technical/scientific decision-makers |
+| Sector Tailwinds | Industry growth potential |
+| Growth Signals | Hiring, expansion, exports, certifications |
 
 ---
 
-## Project Structure
+# Company Classification Model
+
+| Grade | Score Range | Classification |
+|---|---|---|
+| A | 80–100 | Strong Federer |
+| B | 60–79 | Probable Federer |
+| C | 40–59 | Borderline ICP |
+| D | Below 40 | Not ICP |
+
+---
+
+# Project Structure
+
+```bash
 federer-icp-hyderabad/
+│
+├── federer_icp_companies.csv
+├── federer_icp_methodology.docx
+└── README.md
+```
 
-├── federer_icp_companies.csv        # Final filtered dataset  
-├── federer_icp_methodology.docx     # Research methodology  
-└── README.md                        # Project documentation  
+### File Details
 
----
-
-## Data Sources Used
-Companies were sourced and validated using multiple layers:
-
-- Industry associations (BioAsia, CII Telangana, OPPI, IDMA)
-- Government portals (Udyam MSME, DPIIT)
-- Export/import intelligence tools (Zauba, ImportYeti)
-- Trade expos (BioAsia Hyderabad, CPhI India)
-- LinkedIn company profiles and hiring signals
-- Patent and regulatory databases (Google Patents, USFDA, EU-GMP lists)
+| File | Description |
+|---|---|
+| `federer_icp_companies.csv` | Final ICP-qualified company dataset |
+| `federer_icp_methodology.docx` | Research methodology and validation approach |
+| `README.md` | Project documentation |
 
 ---
 
-## Methodology Summary
-The research followed a structured filtering pipeline:
+# Research Methodology
 
-- Built an initial universe of Hyderabad-based manufacturing companies using industry directories and databases  
-- Applied first-level filtering to remove traders, CROs, labs, service providers, and subsidiaries of large conglomerates  
-- Verified actual manufacturing presence through websites, product portfolios, and regulatory signals  
-- Evaluated companies using a 6-factor Federer scoring framework  
-- Identified growth signals such as hiring activity, expansions, certifications, and export presence  
-- Final output consists of 25+ ICP-qualified companies
+The research followed a structured multi-stage filtering and validation process:
 
----
+1. Built an initial database of Hyderabad-based manufacturing companies using industry directories and public databases
 
-## Key Insights
-- A large portion of initially identified companies were eliminated after verifying they were CROs, service providers, or distributors rather than true manufacturers  
-- Distinguishing manufacturing vs service-layer companies in biotech and pharma was one of the most critical filtering challenges  
-- Companies with consistent hiring activity and export presence were more reliable indicators of ICP fit than marketing claims or certifications alone  
-- Hyderabad shows strong concentration in biotech, pharma, and specialty chemical manufacturing clusters  
-- Only ~25–30% of initially shortlisted companies passed final ICP validation
+2. Removed non-ICP entities including:
+   - CROs
+   - Service providers
+   - Traders
+   - Distributors
+   - Subsidiaries without independent manufacturing operations
 
----
+3. Verified manufacturing capability through:
+   - Product portfolios
+   - Regulatory certifications
+   - Facility references
+   - Export/import activity
+   - Public manufacturing disclosures
 
-## Limitations
-- Financial and employee data for private companies is often unavailable or estimated  
-- Some growth signals may lag behind real-time developments  
-- Manual validation was required to eliminate false positives and misclassified CROs or service firms  
+4. Applied the Federer ICP scoring framework across all shortlisted companies
 
----
+5. Identified growth indicators such as:
+   - Hiring activity
+   - Export presence
+   - Expansion announcements
+   - Technical certifications
+   - Industry participation
 
-## Outcome
-This dataset is designed for:
-- ICP-based outbound targeting  
-- Sales pipeline development  
-- Validation of DeepThought’s Federer company hypothesis  
-- Prioritized outreach based on growth and technical depth signals  
+6. Generated a final shortlist of ICP-qualified companies suitable for execution consulting and outbound targeting
 
 ---
 
-## Author
-Tanveer Singh  
-Business Analytics Internship – DeepThought
+# Data Sources Used
+
+Multiple data layers were used for validation and cross-verification:
+
+### Industry Associations
+- BioAsia
+- CII Telangana
+- OPPI
+- IDMA
+
+### Government & Regulatory Sources
+- Udyam MSME
+- DPIIT
+
+### Trade & Import Intelligence
+- Zauba
+- ImportYeti
+
+### Industry Events & Trade Shows
+- BioAsia Hyderabad
+- CPhI India
+
+### Digital & Professional Platforms
+- LinkedIn company profiles
+- Hiring and expansion signals
+
+### Patent & Compliance Databases
+- Google Patents
+- USFDA listings
+- EU-GMP databases
+
+---
+
+# Key Insights
+
+- A significant percentage of initially identified companies were excluded after verification revealed they were CROs, distributors, or service-layer organizations rather than actual manufacturers
+
+- Differentiating between true manufacturing firms and service-oriented biotech/pharma companies was one of the most critical challenges during the validation process
+
+- Hiring activity, export records, and operational expansion proved to be stronger ICP indicators than marketing claims alone
+
+- Hyderabad demonstrated strong manufacturing concentration in:
+  - Biotechnology
+  - Pharmaceuticals
+  - Specialty chemicals
+
+- Only approximately 25–30% of the initially shortlisted companies passed final ICP qualification
+
+---
+
+# Project Outcome
+
+The final dataset was designed to support:
+
+- ICP-based outbound targeting
+- Sales pipeline prioritization
+- Execution consulting use cases
+- Market segmentation analysis
+- Validation of DeepThought’s Federer company hypothesis
+
+---
+
+# Limitations
+
+- Financial and employee information for private companies was limited or estimated in several cases
+
+- Some public growth indicators may not reflect real-time operational changes
+
+- Manual validation was required to remove false positives and incorrectly categorized companies
+
+---
+
+# Skills Demonstrated
+
+- Market Research
+- ICP Qualification & Segmentation
+- Business Intelligence Research
+- Multi-source Data Validation
+- Company Profiling
+- Strategic Filtering & Scoring
+- Data Structuring & Documentation
+- Analytical Thinking
+
+---
+
+# Tools & Platforms Used
+
+- Microsoft Excel / CSV
+- LinkedIn
+- Google Patents
+- Zauba
+- ImportYeti
+- Public Regulatory Databases
+- Industry Association Directories
+
+---
+
+# Let's Connect
+
+Email: [tanveer.gulati2006@gmail.com](mailto:tanveer.gulati2006@gmail.com)
+
+LinkedIn:  [Tanveer Singh Gulati LinkedIn](https://www.linkedin.com/in/tanveer-singh-gulati/?utm_source=chatgpt.com)
